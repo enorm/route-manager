@@ -1,5 +1,17 @@
 # Route Manager UI
 
+## TODO
+
+* Connect to Strava (or Strava Login), see https://developers.strava.com/docs/authentication/
+  * Store Athlete ID in local storage
+  * Logout --> clears local storage
+* Build nice template, see https://tailwindcss.com and https://tailwindcss.nuxtjs.org/examples/basic
+  * Draw wireframes first
+* Page Title
+* Migrate to pure Vue 3 or Svelte
+* Use Bulma as CCS framework?
+* Create a nice logo
+
 ## Nuxt project initialization
 
 https://nuxtjs.org/docs/get-started/installation
