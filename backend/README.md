@@ -2,15 +2,17 @@
 
 ## TODO
 
-* OAuth2 flow
 * Data model
-* Import data to OpenSearch
+* Import data to OpenSearch/Elasticsearch
+  * Sync data
 * API for managing routes
+* CI/CD (Target Platform?)
+
 * Features
     * Import routes from Strava
     * \[Maybe] Import activities from Strava for more route suggestions
     * Add categories and/or tags to routes
-    * Search/Filter routes by
+    * Search/Filter routes/activities by
       * name
       * category
       * tag
@@ -24,8 +26,18 @@
       * starred (boolean)
       * number of segments
       * ...
-    * Link to route in Strava
+    * Sort by distance / elevation gain / estimated moving time etc.
+    * Link to route/activity in Strava
     * \[Maybe] Export Route GPX/TCX
+    * Calendar / Plan: Schedule routes
+      * Weather information
+      * Sunrise / Sunset
+      * Outfit recommendation (Radklamottenguide)
+    * Integrate TrainingPeaks? --> Assign route to workout / route suggestions
+    * Integrate Best Bike Split?
+    * Export to Google Maps? (View route in Google Maps)
+    * List POIs on route (e.g. gas station @ KM 32)
+    * Show Events of Strava Clubs (Today's events, Events this week, Calendar)
 
 ## Strava Links and Docs
 
@@ -52,7 +64,14 @@
 ### Run
 
 ```
+docker-compose up -d
 ./gradlew bootRun
+```
+
+### Check for dependency updates
+
+```
+./gradlew dependencyUpdates
 ```
 
 ### Help

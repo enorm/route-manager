@@ -1,5 +1,7 @@
 <template>
-  <Tutorial/>
+  <div class="min-h-full">
+    <StravaConnect/>
+  </div>
 </template>
 
 <script lang="ts">
