@@ -68,17 +68,30 @@ docker-compose up -d
 ./gradlew bootRun
 ```
 
+* Elasticsearch: http://localhost:9200/
+* Kibana: http://localhost:5601/
+
 ### Check for dependency updates
 
 ```
 ./gradlew dependencyUpdates
 ```
 
-### Help
+## Help
+
+### Gradle
 
 * [Official Gradle documentation](https://docs.gradle.org)
+
+### Spring
+
 * [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.7.4/gradle-plugin/reference/html/)
 * [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.7.4/gradle-plugin/reference/html/#build-image)
 * [Coroutines section of the Spring Framework Documentation](https://docs.spring.io/spring/docs/5.3.23/spring-framework-reference/languages.html#coroutines)
 * [Spring Reactive Web](https://docs.spring.io/spring-boot/docs/2.7.4/reference/htmlsingle/#web.reactive)
 * [Building a Reactive RESTful Web Service](https://spring.io/guides/gs/reactive-rest-service/)
+
+### Elasticsearch
+
+* [Install Elasticsearch with Docker](https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html)
+* [Install Kibana with Docker](https://www.elastic.co/guide/en/kibana/current/docker.html)
